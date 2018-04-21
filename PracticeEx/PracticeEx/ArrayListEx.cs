@@ -19,7 +19,7 @@ namespace PracticeEx
 
             Console.WriteLine("Contents of ArrayList: ");
 
-            foreach (String str in al)
+            foreach (string str in al)
             {
                 Console.WriteLine("\n" + str);
 
