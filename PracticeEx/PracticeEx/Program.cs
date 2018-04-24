@@ -6,9 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using static PracticeEx.Delegate.DelegExemple;
 
+
 namespace PracticeEx
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
@@ -31,8 +32,10 @@ namespace PracticeEx
             //DelegExemple a = new DelegExemple();
             //a.Execute();
             //-------------------------------------------------
-
-
+            //Subscriber.Execute();//addtwonumber
+                                 //-----------------------------------------------------
+            MainMulticast.Run();//multicastEX
+           
 
 
 
