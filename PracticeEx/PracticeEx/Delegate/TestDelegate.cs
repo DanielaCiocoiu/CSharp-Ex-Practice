@@ -24,9 +24,9 @@ namespace PracticeEx
         public void Execute()
         {
             TestDelegate ex = new TestDelegate();
-            TestDelegate.FirstDelegate fd1 = new TestDelegate.FirstDelegate(ex.Fun1);//instantiere
-            TestDelegate.FirstDelegate fd2 = new TestDelegate.FirstDelegate(ex.Fun2);
-            TestDelegate.FirstDelegate fd3 = new TestDelegate.FirstDelegate(ex.Fun3);
+            FirstDelegate fd1 = new FirstDelegate(ex.Fun1);//instantiere
+            FirstDelegate fd2 = new FirstDelegate(ex.Fun2);
+            FirstDelegate fd3 = new FirstDelegate(ex.Fun3);
             fd1();
             fd2();
             fd3();

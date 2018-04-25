@@ -35,6 +35,25 @@ namespace PracticeEx
 
             return 0;
         }
+        public static int maxOfArray(int [] num)
+        {
+            int m = num[0];
+            for (int i = 0; i < num.Length; i++)
+            {
+               
+                if (m<num[i])
+                {
+                  
+                    if (m % 2 != 0)
+                    {
+                        m = num[i];
+                        Console.WriteLine(m);
+                    }
+                }
+            }
+            return m;
+        }
+  
     }
 }
 

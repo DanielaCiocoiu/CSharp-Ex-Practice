@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delegate\AddTwoNumbers.cs" />
+    <Compile Include="Exercitii\AccesSpecifier.cs" />
     <Compile Include="Exercitii\ArrayListEx.cs" />
     <Compile Include="Exercitii\Break.cs" />
     <Compile Include="Delegate\DelegExemple.cs" />
