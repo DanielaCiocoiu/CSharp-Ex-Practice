@@ -14,6 +14,8 @@ namespace PracticeEx
     {
         static void Main(string[] args)
         {
+
+            //Prime.PrimeNum();
             //ArrayListEx.Run();
             //ArrayListEx.Run1();
 
@@ -31,10 +33,10 @@ namespace PracticeEx
             //-------------------------------------------
             //Console.WriteLine(Impar.maxof(25,5,9));
             //Console.WriteLine(Impar.maxof(4, 8, 12));
-           
-            int[] num = { 71, 83, 55, 40 };
-            Impar.maxOfArray(num);
-         
+
+            //int[] num = { 71, 83, 55, 40 };
+            //Impar.maxOfArray(num);
+
             //-------------------------------------------
             //Console.WriteLine("Luna Mai  este a {0}", (int)lunileAnului.Mai + "-a luna din an");
             //-------------------------------------------
@@ -48,6 +50,8 @@ namespace PracticeEx
             //-----------------------------------------------------
             //MainMulticast.Run();//multicastEX
             //----------------------------------
+            OnotherExempleOfDelegate.ExecuteDel();
+            ExecuteEmployee.ExecuteEmp();
             //Execute.Run();
 
 

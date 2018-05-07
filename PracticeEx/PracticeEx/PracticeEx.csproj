@@ -44,11 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delegate\AddTwoNumbers.cs" />
+    <Compile Include="Delegate\OnotherExempleOfDelegate.cs" />
     <Compile Include="Exercitii\AccesSpecifier.cs" />
     <Compile Include="Exercitii\ArrayListEx.cs" />
     <Compile Include="Exercitii\Break.cs" />
     <Compile Include="Delegate\DelegExemple.cs" />
     <Compile Include="Delegate\MulticastEx.cs" />
+    <Compile Include="Exercitii\Prime.cs" />
     <Compile Include="Exercitii\Enum.cs" />
     <Compile Include="Exercitii\Impar.cs" />
     <Compile Include="Exercitii\JaggedArray.cs" />

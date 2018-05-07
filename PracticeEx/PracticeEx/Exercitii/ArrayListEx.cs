@@ -12,7 +12,7 @@ namespace PracticeEx
         public static void Run()//ex1
         {
             ArrayList al = new ArrayList();
-
+            
             al.Add("Ana");
             al.Add("Maia");
             al.Add("Mia");
