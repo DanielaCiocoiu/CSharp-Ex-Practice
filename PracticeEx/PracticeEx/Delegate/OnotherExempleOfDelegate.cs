@@ -30,16 +30,16 @@ namespace PracticeEx.Delegate
         public int Salary { get; set; }
         public int Experience { get; set; }
 
-        public static void PromoteEmployee(List<Employees> employeeList, IsPromotable IsEligibleToPromote)
-        {
-            foreach (Employees employees in employeeList)
-            {
-                if (IsEligibleToPromote(employees))
-                {
-                    Console.WriteLine(employees.Name + " promoted");
-                }
-            }
-        }
+       // public static void PromoteEmployee(List<Employees> employeeList, IsPromotable IsEligibleToPromote)
+        //{
+        //    foreach (Employees employees in employeeList)
+        //    {
+        //        if (IsEligibleToPromote(employees))
+        //        {
+        //            Console.WriteLine(employees.Name + " promoted");
+        //        }
+        //    }
+        //}
     }
     public class ExecuteEmployee
     {
@@ -53,7 +53,7 @@ namespace PracticeEx.Delegate
 
 
 
-            Employees.PromoteEmployee(empList, emp => emp.Experience >= 5);
+           // Employees.PromoteEmployee(empList, emp => emp.Experience >= 5);
         }
        
     }

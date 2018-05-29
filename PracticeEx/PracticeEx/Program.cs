@@ -14,7 +14,31 @@ namespace PracticeEx
     {
         static void Main(string[] args)
         {
+            int i = 0;
+            Ex.SimpleMethod(i);
 
+            //Ex.EvenNumber();
+            //Algo.Pattern();
+            //String
+            //ExerString.reverseString();
+            //------------------------------------------------
+            //Ex.ariaCerc();
+            // Ex.average();
+            //Ex.binary();
+            Console.WriteLine("Unghiul dintre cele doua limibi este:{0} ", Ex.unghiCeas(11, 12));
+
+            //Ex.doWhile();
+            //Ex.inmultire();
+            //Ex.Fib3();
+            //Ex.FibonacciStreamWriter();
+            //for (int i = 0; i < 15; i++)
+            //{
+            //    Console.WriteLine(Ex.Fibonacci2(i));
+            //}
+            //Ex.Fibonacci1();
+            //Ex.FizzBuzz();
+            //Ex.Pattern();
+            //Ex.Fibonacci();
             //Prime.PrimeNum();
             //ArrayListEx.Run();
             //ArrayListEx.Run1();
@@ -50,8 +74,8 @@ namespace PracticeEx
             //-----------------------------------------------------
             //MainMulticast.Run();//multicastEX
             //----------------------------------
-            OnotherExempleOfDelegate.ExecuteDel();
-            ExecuteEmployee.ExecuteEmp();
+            //OnotherExempleOfDelegate.ExecuteDel();
+            //ExecuteEmployee.ExecuteEmp();
             //Execute.Run();
 
 
